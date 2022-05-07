@@ -1,0 +1,169 @@
+* {
+    max-width: 100%;
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+
+/* Grid */
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 25px;
+    margin: 30px;
+}
+
+.gridIframe {
+    box-shadow: 10px 13px 37px rgb(39, 87, 33);
+  
+ }
+ 
+
+ .bibilist {
+   margin: 20px;
+   cursor: pointer;
+     
+ }
+ 
+ .container {
+position: fixed;
+width: 100%;
+height: 100%;
+overflow: auto;
+left: -320px;
+
+} 
+
+ .sidebar {
+    width: 320px;
+    height: 100%;
+    background: black; 
+    overflow: auto;
+    
+} 
+.sidebar ul li {
+    
+    list-style: none;
+    padding: 12px 10px;
+}
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size:  17px;
+    font-family:  sans-serif;
+    opacity: .7;    
+
+}
+.sidebar ul li:hover {
+    background: #4e4e4e;
+    cursor: pointer;
+}
+
+.side-hide {
+    float: right;
+    margin: 12px;
+    color: white;
+    opacity: 0.7;
+    font-size: 24px;
+    cursor: pointer;
+} 
+
+.button {
+    cursor: pointer;
+    border: none;
+}
+.show {
+    left: 0;
+}
+
+/* HEADER */
+.header {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;  
+    box-shadow: 10px 13px 37px rgb(39, 87, 33);
+}
+/* FORMULARIO DE CONTACTO */
+.formulario {
+    width: 400px;
+    background-color: #24303c;
+    align-items: center;
+    display: flex;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 7px 13px 37px #000;
+    text-align: center;
+        
+ }
+
+.registrarse {
+    font-size: 22px;
+    margin-bottom: 15px;
+   }
+
+.controles {
+border: 1px solid rgb(102, 89, 158);
+padding: 5px;
+font-size: 16px;
+color: white;
+   }
+   .p {
+       height: 30px;
+       color: white;
+       text-align: center;
+       
+   }
+   .a {
+       color: white;
+
+   }
+   .boton {
+       width: 100%;
+       border: none;
+       background: rgb(102, 89,158) ;
+       padding: 10px;
+       margin: 10px 0;
+  }
+
+.logo {
+    height: 130;
+            }
+
+.eleccion {
+    padding: 20px;
+    border-top: 10px;
+    font-size: large;
+}
+.historia {
+    background-color: rgb(241, 186, 147);
+padding: 4px; border-radius: 10px;
+font-size: 20px; 
+}
+ 
+h1 { color: rgb(3, 29, 29);
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+            
+}
+ #subtitulo {
+     padding: 20px;
+     text-align: center;
+     font-size: 35px;
+          }
+     body {
+         background-image: linear-gradient(white, rgb(84, 136, 77));
+              }
+     h3 {
+         font-style: italic;
+         text-align: center;
+     }
+     .centrado {
+         text-align: center;
+     }
+
+     
